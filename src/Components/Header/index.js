@@ -68,9 +68,8 @@ const Header = () => {
               {Items.map((item, i) => (
                 <Link to={item.path}><li key={i} className='hover:text-black'>{item.Name}</li></Link>))}
             </ul>
-
-            <button className='bg-black w-16 font-serif text-white mt-6 hover:bg-white hover:text-black rounded-lg'>Login</button>
-
+<Link to='/login'><button className='bg-black w-16 font-serif text-white mt-6 hover:bg-white hover:text-black rounded-lg'>Login</button>
+</Link>
           </div>
         )}
 
@@ -89,7 +88,9 @@ const Header = () => {
       </div>
       {/* Login Button */}
       <div className='flex items-center px-20 mt-1'>
-        <button className='bg-yellow-600 w-16 font-serif md:block hidden text-white hover:bg-black rounded-lg'>Login</button>
+       <Link to='/login'> <button className='bg-yellow-600 w-16 font-serif md:block hidden text-white hover:bg-black rounded-lg'>Login
+       </button>
+       </Link>
       </div>
     </header>
 
