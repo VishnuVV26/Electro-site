@@ -31,10 +31,12 @@ useEffect(() => {
         // Entire Div class
         <div className=''>
     <div className='flex justify-center py-5 md:py-10 relative'>
+        {/* Left and right slide buttons */}
         <div className='absolute top-1/2 md:left-20 left-10 transform -translate-y-1/2'>
         <button onClick={prevSlide} className=''><IoIosArrowBack className='md:text-3xl text-xl text-slate-700 hover:text-black' />
 </button>
         </div>
+        {/* slides of images */}
 <div className='absolute top-1/2 md:right-20 right-10 transform -translate-y-1/2'>  <button onClick={nextSlide}><IoIosArrowForward className='md:text-3xl text-xl text-slate-700 hover:text-black' />
 </button></div>
     {images.map((image,i)=>(

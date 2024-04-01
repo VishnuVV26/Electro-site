@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FiMenu, FiSearch, FiX } from 'react-icons/fi'
 import { Link } from 'react-router-dom';
 import { IoIosHeartEmpty, IoIosCart } from "react-icons/io";
+import Logo from './Logo';
 
 const Header = () => {
 
@@ -38,7 +39,7 @@ const Header = () => {
           <FiMenu className='text-2xl text-yellow-500' />
         </button>
       </div>
-          <h1 className='md:text-3xl text-xl text-yellow-500 font-serif font-bold'>E<span className='text-black'>lectro</span>City</h1>
+<Logo/>
         </div>
 
         {/* Desktop View and Mobile view Search bar */}

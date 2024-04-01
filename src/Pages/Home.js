@@ -1,12 +1,14 @@
 import React from 'react'
 import Banner from '../Components/Banner/Banner'
-import Mobiles from '../Components/Mobiles/Mobiles'
+import LatestMobiles from '../Components/Mobiles/LatestMobiles'
+import LatestLap from '../Components/Laptops/LatestLap'
 
 const Home = () => {
   return (
     <div>
       <Banner/>
-      <Mobiles/>
+      <LatestMobiles/>
+      <LatestLap/>
     </div>
   )
 }

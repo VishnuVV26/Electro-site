@@ -6,6 +6,9 @@ import About from "./Pages/About";
 import ContactUs from "./Pages/ContactUs";
 import Login from "./Pages/Login";
 import SignUp from "./Pages/SignUp";
+import BackToTopButton from "./Components/BackToTop/BackToTopButton";
+import Footer from "./Components/Footer";
+import ProductDisplay from "./Pages/ProductDisplay";
 function App() {
   return (
     <div className="">
@@ -17,8 +20,10 @@ function App() {
   <Route path="/contact" element={<ContactUs/>}/>
   <Route path="/login" element={<Login/>}/>
   <Route path="/signup" element={<SignUp/>}/>
+  <Route path="/products/:id" element={<ProductDisplay/>}/>
 </Routes>
-
+<BackToTopButton/>
+<Footer/>
     </div>
   );
 }
