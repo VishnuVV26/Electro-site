@@ -1,101 +1,176 @@
 import React, { useState } from 'react'
-import { FiMenu, FiSearch, FiX } from 'react-icons/fi'
+import Logo from './Logo'
+import { IoIosHeartEmpty, IoIosCart } from 'react-icons/io'
+import { FiSearch, FiX } from 'react-icons/fi'
+import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { IoIosHeartEmpty, IoIosCart } from "react-icons/io";
-import Logo from './Logo';
-
+import { HiMenu } from "react-icons/hi";
 const Header = () => {
 
-  // const [showSearch, setShowSearch] = useState(false);
-  const [showMenu, setShowMenu] = useState(false);
-
-  // const handleSearchInput = () => {
-  //   setShowSearch(!showSearch)
-  // }
-
-  const handleMenu = () => {
-    setShowMenu(!showMenu)
-  }
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const Items = [
     { Name: 'Home', path: "/" },
-    { Name: "Devices", path: "/devices" },
-    { Name: "About", path: "/about" },
+    { Name: "Shop", path: "/devices" },
+    { Name: "Products", path: "/about" },
     { Name: "ContactUs", path: "/contact" }
   ]
 
-
-
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
 
   return (
-    // Container
-    <header className='bg-slate-300 md:p-5 p-2 flex gap-2 md:gap-4 md:h-auto h-24 items-center'>
-            {/* Entire Div class */}
-      <div className='flex md:gap-12 gap-2 items-center'>
-        <div className='flex'>
-           {/* Menu Icon */}
-      <div className='flex items-center'>
-        <button onClick={handleMenu} className='md:hidden'>
-          <FiMenu className='text-2xl text-yellow-500' />
-        </button>
-      </div>
-<Logo/>
+    // Whole Header Container
+    <header className="bg-slate-300 flex flex-col">
+      {/* Top Header */}
+      <div className='bg-slate-200 p-3 flex justify-between'>
+        {/* Top left */}
+        <div className='flex md:flex-row flex-col md:gap-8'>
+          <p className='md:text-sm text-[8px] font-medium '>Phone :<span>+01 234 56 789</span></p>
+          <p className='md:text-sm text-[8px] font-medium'>Email :<span>electrocity123@gmail.com</span></p>
         </div>
+        {/* Top right */}
+        <div className='flex gap-5'>
+          <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-returns._CB484059092_.png"
+            alt='' className='w-6 h-6 cursor-pointer' />
+          <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-warranty._CB485935626_.png"
+            alt='' className='w-6 h-6 cursor-pointer' />
+          <img src="https://m.media-amazon.com/images/G/31/A2I-Convert/mobile/IconFarm/icon-top-brand._CB617044271_.png"
+            alt='' className='w-6 h-6 cursor-pointer' />
+        </div>
+      </div>
+      {/* Main Header */}
+      <div className='flex items-center justify-between gap-5 p-5'>
+        {/* Menu icon in mobile view */}
+        <div className='md:hidden block'>
+          <button onClick={toggleMenu}>
+            <HiMenu className='text-2xl' />
+          </button>
+        </div>
+        {/* Logo */}
+        <div className=''>
+          <Logo />
+        </div>
+        {/* Menu view in desktop */}
+        <div className='md:flex gap-10 list-none text-md font-semibold hidden'>
+          {Items.map((item, index) =>
+            <Link to={item.path}><li key={index} className='hover:text-yellow-500 cursor-pointer'>{item.Name}</li>
+            </Link>
+          )}
+        </div>
+        {/* Menu in the Mobile view */}
 
-        {/* Desktop View and Mobile view Search bar */}
-        <div className='py-2 relative'>
+        {isMenuOpen && (
+          <div className='w-1/2 bg-slate-500 top-28 left-0 h-screen absolute p-7'>
+            <ul className='text-md font-medium text-white'>
+              {Items.map((item, index) => (
+               <Link to={item.path} ><li key={index} className='hover:text-black'>{item.Name}</li></Link>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Search Bar */}
+        <div className='relative hidden md:flex'>
           <input type='text'
             placeholder='Search...'
             className='md:w-80 w-32 md:h-auto h-5 px-2 rounded-md pr-[2.5rem]'
           />
-          <button className='p-2 inset-y-0 right-0 absolute'><FiSearch className='md:text-xl' /></button>
-        </div>
-        {/* Desktop view Header Menu */}
-        <div className='pt-2 md:block hidden'>
-          <ul className='flex gap-10 font-bold justify-center items-center font-serif text-yellow-600'>
-            {Items.map((item, i) => (
-              <Link to={item.path}><li key={i} className='cursor-pointer hover:scale-105 duration-75 hover:text-black'>{item.Name}</li></Link>
-            ))}
-          </ul>
-        </div>
-        {/* Mobile View */}
+          <button className='p-2 -inset-y-2 right-0 absolute'><FiSearch className='md:text-xl' /></button>
 
-        {showMenu && (
-          <div className='w-2/3 absolute bg-yellow-500 h-screen top-0 left-0 flex flex-col px-6 py-7 duration-300'>
-            <button onClick={handleMenu} className='self-end'>
-              <FiX className='text-2xl' />
-            </button>
-            <ul className='text-white font-serif font-bold'>
-              {Items.map((item, i) => (
-                <Link to={item.path}><li key={i} className='hover:text-black'>{item.Name}</li></Link>))}
-            </ul>
-<Link to='/login'><button className='bg-black w-16 font-serif text-white mt-6 hover:bg-white hover:text-black rounded-lg'>Login</button>
-</Link>
-          </div>
-        )}
-
-      </div>
-      {/* Wishlist Icon */}
-      <div className='items-center md:px-3'>
+        </div>
+        {/* icons cart,login and wishlist */}
+        <div className='flex gap-5'>
+         <Link to={'/wishlist'}>
           <button className='mt-2 hover:scale-105 duration-75'>
-            <IoIosHeartEmpty className='text-2xl text-yellow-600 hover:text-black' />
+            <IoIosHeartEmpty className='text-2xl text-black hover:text-yellow-500' />
+          </button></Link> 
+          <Link to={'/cart'}>
+          <button className='mt-2 hover:scale-105 duration-75'>
+            <IoIosCart className='text-2xl text-black hover:text-yellow-500' />
           </button>
+          </Link>
+         <Link to={'/login'}>
+         <button className='mt-2 hover:scale-105 duration-75'>
+            <FaUser className='text-xl text-black hover:text-yellow-500' />
+          </button>
+          </Link> 
         </div>
-        {/* Cart Icon */}
-      <div className='items-center md:px-2'>
-        <button className='mt-2 hover:scale-105 duration-75'>
-          <IoIosCart className='text-2xl text-yellow-600 hover:text-black' />
-        </button>
       </div>
-      {/* Login Button */}
-      <div className='flex items-center px-20 mt-1'>
-       <Link to='/login'> <button className='bg-yellow-600 w-16 font-serif md:block hidden text-white hover:bg-black rounded-lg'>Login
-       </button>
-       </Link>
-      </div>
-    </header>
 
+    </header>
   )
 }
 
 export default Header
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

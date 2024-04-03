@@ -9,6 +9,8 @@ import SignUp from "./Pages/SignUp";
 import BackToTopButton from "./Components/BackToTop/BackToTopButton";
 import Footer from "./Components/Footer";
 import ProductDisplay from "./Pages/ProductDisplay";
+import Cart from "./Pages/Cart";
+import Wishlist from "./Pages/Wishlist";
 function App() {
   return (
     <div className="">
@@ -21,6 +23,8 @@ function App() {
   <Route path="/login" element={<Login/>}/>
   <Route path="/signup" element={<SignUp/>}/>
   <Route path="/products/:id" element={<ProductDisplay/>}/>
+  <Route path="/cart" element={<Cart/>}/>
+  <Route path="/wishlist" element={<Wishlist/>}/>
 </Routes>
 <BackToTopButton/>
 <Footer/>
