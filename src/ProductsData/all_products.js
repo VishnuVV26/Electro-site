@@ -2,6 +2,7 @@ export const allProducts = [
     // Latest Mobiles
     {
         "id": 1,
+        "name":"Vivo Y73 (Diamond Flare, 8GB RAM, 128GB Storage)",
         "mrp": "29,990",
         "price": "22,999",
         "color": "Diamond Flare",
@@ -18,7 +19,7 @@ export const allProducts = [
     },
     {
         "id": 2,
-        "name": "Vivo X50",
+        "name":"Vivo X50 (Frost Blue, 8GB RAM, 256GB Storage)",
         "mrp": "35,890",
         "price": "32,990",
         "color": "Frost Blue",
@@ -35,6 +36,7 @@ export const allProducts = [
     },
     {
         "id": 3,
+        "name":"Samsung Galaxy M14 5G (Smoky Teal,6GB,128GB)",
         "mrp": "22,780",
         "price": "13,990",
         "color": "Smoky Teal",
@@ -51,6 +53,7 @@ export const allProducts = [
     },
     {
         "id": 4,
+        "name":"Samsung Galaxy M34 5G (Prism Silver,6GB,128GB)",
         "mrp": "25,990",
         "price": "15,999",
         "color": "Prism Silver",
@@ -67,6 +70,7 @@ export const allProducts = [
     },
     {
         "id": 5,
+        "name":"Apple iPhone 13 (128GB)",
         "mrp": "67,680",
         "price": "52,090",
         "color": "Blue",
@@ -83,6 +87,7 @@ export const allProducts = [
     },
     {
         "id": 6,
+        "name":"Apple iPhone 14 Pro Max (128 GB)",
         "mrp": "39,690",
         "price": "32,990",
         "color": "Deep Purple",
@@ -99,6 +104,7 @@ export const allProducts = [
     },
     {
         "id": 7,
+        "name":"realme narzo 60 Pro",
         "mrp": "29,590",
         "price": "22,500",
         "color": "Mars Orange",
@@ -115,6 +121,7 @@ export const allProducts = [
     },
     {
         "id": 8,
+        "name":"iQOO Z7s 5G by vivo (Norway Blue, 6GB RAM, 128GB Storage)",
         "mrp": "22,450",
         "price": "15,999",
         "color": "Norway Blue",
@@ -135,6 +142,7 @@ export const allProducts = [
 
     {
         "id": 9,
+        "name":"HP Laptop 15, 13th Gen Intel Core i5-1335U",
         "desc": "HP Laptop 15, 13th Gen Intel Core i5-1335U, 15.6-inch (39.6 cm), FHD, 8GB DDR4, 1TB SSD, Intel Iris Xe Graphics, FPR, FHD Camera w/Privacy Shutter (Win 11, MSO 2021, Silver, 1.59 kg), fd0012TU",
         "color": "Natural Silver",
         "brand": "HP",
@@ -150,6 +158,7 @@ export const allProducts = [
     },
     {
         "id": 10,
+        "name":"HP Victus Gaming Laptop",
         "desc": "HP Victus Gaming Laptop, 12th Gen Intel Core i5-12450H, 4GB RTX 3050 GPU, 15.6-inch (39.6 cm) FHD IPS 144Hz, 16GB DDR4, 512GB SSD, Backlit KB, B&O Dual Speakers (Win 11, MSO, Blue, 2.37 kg), fa0666TX",
         "color": "Light Blue",
         "brand": "HP",
@@ -165,11 +174,12 @@ export const allProducts = [
     },
     {
         "id": 11,
+        "name":"Acer Predator Helios Neo 16 Gaming Laptop",
         "desc": "Acer Predator Helios Neo 16 Gaming Laptop 13th Gen Intel Core i7 Processor (16 GB/1 TB SSD/Windows 11 Home/NVIDIA ® GeForce RTX ¢ 4050) PHN16-71,16-inch WUXGA Display",
         "color": "Black",
         "brand": "Acer",
         "storage": "1 TB",
-        "ram": "16 GB",
+        "size": "16 GB",
         "mrp": "1,44,980",
         "price": "1,11,990",
         "image": "https://m.media-amazon.com/images/I/81E2srXhKVL._SY450_.jpg",
@@ -180,6 +190,7 @@ export const allProducts = [
     },
     {
         "id": 12,
+        "name":"Acer Nitro 5 AN515-57",
         "desc": "Acer Nitro 5 AN515-57 Intel Core i5-11400H 15.6 inches(39.6cm) FHD 144Hz IPS Display Gaming Laptop (NVIDIA GeForce RTX 3050 Graphics, Windows 10 Home, 8GB DDR4, 256GB SSD+1TB HDD, 2.4kg",
         "color": "Black",
         "brand": "Acer",
@@ -195,6 +206,7 @@ export const allProducts = [
     },
     {
         "id": 13,
+        "name":"Lenovo Yoga Slim7 Carbon",
         "desc": "Lenovo Yoga Slim7 Carbon Intel Evo i7 1260P 13.3-inch(33.78cm) QHD 400Nit Touch Laptop(16GB/1TB SSD/Win 11/Office 2021/Backlit KB/IR Cam/3Yr Warranty/Alexa/3 Month Game Pass/Moon White/ 1kg),82U90080IN",
         "color": "Moon White",
         "brand": "Lenovo",
@@ -210,6 +222,7 @@ export const allProducts = [
     },
     {
         "id": 14,
+        "name":"Apple 2022 MacBook Air Laptop",
         "desc": "Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB size, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight",
         "color": "Starlight",
         "brand": "Apple",
@@ -225,6 +238,7 @@ export const allProducts = [
     },
     {
         "id": 15,
+        "name":"Dell Inspiron 7430 2in1 Touch Laptop",
         "desc": "Dell Inspiron 7430 2in1 Touch Laptop, 13th Gen Intel i5-1335U/16GB/512GB SSD/14.0-inch (35.56cm) FHD+ 16:10 Aspect Ratio/Active Pen/Backlit KB + FPR/Win 11 + MSO'21/McAfee 15 Month/Platinum Silver/1.58kg",
         "color": "Platinum Silver",
         "brand": "Dell",
@@ -240,6 +254,7 @@ export const allProducts = [
     },
     {
         "id": 16,
+        "name":"Dell 14 Laptop",
         "desc": "Dell 14 Laptop, AMD Ryzen 5-5500U/ 8GB- 2 DIMM Slots (Expandable to 16GB)/ 512GB/ 14.0-inch (35.56cm) FHD Display 250 Nits/Windows 11 + MSO'21/15 Month McAfee/AMD Radeon Graphics/Black/Thin & Light-1.48kg",
         "color": "Black",
         "brand": "Dell",
@@ -255,6 +270,7 @@ export const allProducts = [
     },
     {
         "id": 17,
+        "name":"MI Notebook Horizon Edition 14",
         "desc": "MI Notebook Horizon Edition 14 Intel Core i5-10210U 10th Gen 14-inch (35.56 cms) Thin and Light Laptop(8GB/512GB SSD/Windows 10/Nvidia MX350 2GB Graphics/Grey/1.35Kg), XMA1904-AR+Webcam",
         "color": "Grey",
         "brand": "MI",
@@ -270,6 +286,7 @@ export const allProducts = [
     },
     {
         "id": 18,
+        "name":"ASUS ROG Flow X13 (2022)",
         "desc": "ASUS ROG Flow X13 (2022), 13.4-inch (34.03 cm) FHD+ 16:10, 120Hz Touch, AMD Ryzen 9 6900HS,4GB RTX 3050 Graphics, 2-in-1 Gaming Laptop (16GB/512GB SSD/Win 11/Office 2021/Black/1.3 Kg), GV301RC-LJ132WS",
         "color": "Off Black",
         "brand": "ASUS",
@@ -287,6 +304,7 @@ export const allProducts = [
     // Mobiles
     {
         "id": 19,
+        "name":"OnePlus 12 ",
         "desc": "OnePlus 12 (Silky Black, 16GB size, 512GB Storage)",
         "price": "69,890",
         "brand": "OnePlus",
@@ -302,6 +320,7 @@ export const allProducts = [
     },
     {
         "id": 20,
+        "name":"Redmi Note 13 5G",
         "desc": "Redmi Note 13 5G (Arctic White, 12GB size, 256GB Storage) | 5G Ready | 120Hz Bezel-Less AMOLED | 7.mm Slimmest Note Ever | 108MP Pro-Grade Camera",
         "price": "21,990",
         "brand": "Redmi",
@@ -317,6 +336,7 @@ export const allProducts = [
     },
     {
         "id": 21,
+        "name":"OPPO A59 5G ",
         "desc": "OPPO A59 5G (Starry Black, 4GB size, 128GB Storage) | 5000 mAh Battery with 33W SUPERVOOC Charger | 6.56-inch HD+ 90Hz Display | with No Cost EMI/Additional Exchange Offers",
         "price": "13,999",
         "brand": "Oppo",
@@ -332,6 +352,7 @@ export const allProducts = [
     },
     {
         "id": 22,
+        "name":"Samsung Galaxy S24 Ultra 5G",
         "desc": "Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)",
         "price": "1,39,999",
         "brand": "Samsung",
@@ -347,6 +368,7 @@ export const allProducts = [
     },
     {
         "id": 23,
+        "name":"Samsung Galaxy A15 5G",
         "desc": "Samsung Galaxy A15 5G (Blue, 8GB, 128GB Storage) | 50 MP Main Camera | Android 14 with One UI 6.0 | 16GB Expandable size | MediaTek Dimensity 6100+ | 5000 mAh Battery",
         "price": "19,499",
         "brand": "Samsung",
@@ -362,6 +384,7 @@ export const allProducts = [
     },
     {
         "id": 24,
+        "name":"realme 12 Pro 5G",
         "desc": "realme 12 Pro 5G (Submarine Blue, 8GB size 256 GB Storage)",
         "price": "24,150",
         "brand": "Realme",
@@ -377,6 +400,7 @@ export const allProducts = [
     },
     {
         "id": 25,
+        "name":"OPPO A59 5G ",
         "desc": "OPPO A59 5G (Silk Gold, 6GB size, 128GB Storage) | 5000 mAh Battery with 33W SUPERVOOC Charger | 6.56-inch HD+ 90Hz Display | with No Cost EMI/Additional Exchange Offers",
         "price": "15,490",
         "brand": "Oppo",
@@ -392,6 +416,7 @@ export const allProducts = [
     },
     {
         "id": 26,
+        "name":"Vivo V30 5G Smartphone",
         "desc": "Vivo V30 5G Smartphone, 8GB size 128GB Storage, Andaman Blue",
         "price": "33,500",
         "brand": "Vivo",
@@ -407,6 +432,7 @@ export const allProducts = [
     },
     {
         "id": 27,
+        "name":"iQOO Z7 Pro 5G",
         "desc": "iQOO Z7 Pro 5G (Blue Lagoon, 8GB size, 256GB Storage) | 3D Curved AMOLED Display | 4nm MediaTek Dimesity 7200 5G Processor | 64MP Aura Light OIS Camera | Segment's Slimmest & Lightest Smartphone",
         "price": "24,999",
         "brand": "IQOO",
@@ -422,6 +448,7 @@ export const allProducts = [
     },
     {
         "id": 28,
+        "name":"iQOO Neo9 Pro 5G",
         "desc": "iQOO Neo9 Pro 5G (Fiery Red, 8GB size, 128GB Storage) | Snapdragon 8 Gen 2 Processor | Supercomputing Chip Q1 | Flagship Level Sony IMX920 Camera",
         "price": "34,999",
         "brand": "IQOO",
@@ -437,6 +464,7 @@ export const allProducts = [
     },
     {
         "id": 29,
+        "name":"iQOO 12 5G",
         "desc": "iQOO 12 5G (Legend, 12GB size, 256GB Storage) | India's 1st Snapdragon® 8 Gen 3 Mobile Platform | India's only Flagship with 50MP + 50MP + 64MP Camera",
         "price": "52,999",
         "brand": "IQOO",
@@ -452,6 +480,7 @@ export const allProducts = [
     },
     {
         "id": 30,
+        "name":"iQOO 12 5G",
         "desc": "iQOO 12 5G (Legend, 12GB size, 256GB Storage) | India's 1st Snapdragon® 8 Gen 3 Mobile Platform | India's only Flagship with 50MP + 50MP + 64MP Camera",
         "price": "69,999",
         "brand": "Xiaomi",
@@ -467,6 +496,7 @@ export const allProducts = [
     },
     {
         "id": 31,
+        "name":"realme NARZO 70 Pro 5G",
         "desc": "realme NARZO 70 Pro 5G (Glass Green, 8GB size,128GB Storage) Dimensity 7050 5G Chipset | Horizon Glass Design | Segment 1st Flagship Sony IMX890 OIS Camera",
         "price": "19,999",
         "brand": "Realme",
@@ -482,6 +512,7 @@ export const allProducts = [
     },
     {
         "id": 32,
+        "name":"iQOO Z6 Lite 5G ",
         "desc": "iQOO Z6 Lite 5G (Mystic Night, 6GB size, 128GB Storage) with Charger | Qualcomm Snapdragon 4 Gen 1 Processor | 120Hz FHD+ Display | Travel Adaptor Included in The Box",
         "price": "11,999",
         "brand": "IQOO",
@@ -497,6 +528,7 @@ export const allProducts = [
     },
     {
         "id": 33,
+        "name":"HONOR MagicBook X16 Pro 2024 ",
         "desc": "HONOR MagicBook X16 Pro 2024, 13th Gen Intel Core i5-13420H (16GB/512GB NVMe SSD, 16-inch (40.64 cm) FHD IPS Anti-Glare Thin and Light Laptop/Windows 11/Backlit Keyboard/Fingerprint/1.75Kg), Gray",
         "color": "Space Gray",
         "brand": "Honor",
@@ -511,6 +543,7 @@ export const allProducts = [
     },
     {
         "id": 34,
+        "name":"Samsung Galaxy Book2 (NP750) ",
         "desc": "Samsung Galaxy Book2 (NP750) Intel 12th Gen core i5 39.6cm (15.6-inch) FHD Thin & Light Laptop (8 GB/512 GB/Windows 11/MS Office/Backlit Keyboard/Finger Print Reader/Silver/1.55Kg), NP750XED-KC1IN",
         "color": "Silver",
         "brand": "Samsung",
@@ -525,6 +558,7 @@ export const allProducts = [
     },
     {
         "id": 35,
+        "name":"ASUS VivoBook 15 (2021)",
         "desc": "ASUS VivoBook 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB size/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
         "color": "Transparent Silver",
         "brand": "ASUS",
@@ -539,6 +573,7 @@ export const allProducts = [
     },
     {
         "id": 36,
+        "name":"Lenovo IdeaPad 1",
         "desc": "Lenovo IdeaPad 1 AMD Ryzen 5 5500U 15.6-inch HD Thin and Light Laptop (16GB/512GB SSD/Windows 11 Home/MS Office 2021/Cloud Grey/1.61Kg), 82R400ERIN",
         "color": "Cloud Grey",
         "brand": "Lenovo",
@@ -553,6 +588,7 @@ export const allProducts = [
     },
     {
         "id": 37,
+        "name":"Samsung Galaxy Book4 360",
         "desc": "Samsung Galaxy Book4 360 (Gray, 16GB size, 1TB SSD)| 15.6-inch Super AMOLED Touchscreen| Intel Core 7 150U Processor| 2 in 1 Laptop| Windows 11 Home| MS Office 2021| Fingerprint Reader| S-Pen Included",
         "color": "Moonstone Gray",
         "brand": "Samsung",
@@ -567,6 +603,7 @@ export const allProducts = [
     },
     {
         "id": 38,
+        "name":"Apple MacBook Air Laptop",
         "desc": "Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB size, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad; Silver",
         "color": "Silver",
         "brand": "Apple",
@@ -581,6 +618,7 @@ export const allProducts = [
     },
     {
         "id": 39,
+        "name":"TECNO MEGABOOK T1",
         "desc": "TECNO MEGABOOK T1,Intel Core 11th Gen i3 Processor (8GB size/512GB SSD Storage), 15.6-Inch(39.62 CM) Eye Comfort disply, (14.8mm Ultra Slim/70 Wh Large Battery/Windows 11/ Moonshine Silver / 1.56 Kg)",
         "color": "Moonshine Silver",
         "brand": "Techno",
@@ -595,6 +633,7 @@ export const allProducts = [
     },
     {
         "id": 40,
+        "name":"MSI Thin GF63",
         "desc": "MSI Thin GF63, Intel 12th Gen. i7-12650H, 40CM FHD 144Hz Gaming Laptop (16GB/512GB NVMe SSD/Windows 11 Home/Nvidia GeForce RTX 4050, GDDR6 6GB/Black/1.86Kg), A12VE-070IN",
         "color": "Black",
         "brand": "MSI",
@@ -610,6 +649,7 @@ export const allProducts = [
 
     {
         "id": 41,
+        "name":"HP Chromebook 14a",
         "desc": "HP Chromebook 14a,Intel Celeron N4500 14inch(35.6 cm) FHD Touchscreen Laptop (Chrome OS, 4 GB SDsize/64 GB eMMC/Chrome 64 /Dual Speakers/Google Assistant Built-in/Mineral Silver) 14a- na1004TU",
         "color": "Mineral Silver",
         "brand": "Hp",
@@ -624,6 +664,7 @@ export const allProducts = [
     },
     {
         "id": 42,
+        "name":"ZEBRONICS Laptop PRO Series Z",
         "desc": "ZEBRONICS Laptop PRO Series Z NBC 4S, Intel Core 12th Gen i5 Processor (8GB size | 512GB SSD), 15.6-Inch (39.6 CM) IPS Display, (Ultra Slim | 38.5 Wh Large Battery | Windows 11 |Midnight Blue |1.76 Kg)",
         "color": "Midnight Blue",
         "brand": "Hp",
@@ -638,6 +679,7 @@ export const allProducts = [
     },
     {
         "id": 43,
+        "name":"NIBOSI Men's Watch",
         "desc": "NIBOSI Men's Watch Analog Silicone Quartz Wrist Watch for Men Business Waterproof Sport Stainless Steel Dress Watch with Calendar",
         "price": "3,022",
         "brand": "Nibosi",
@@ -650,6 +692,7 @@ export const allProducts = [
     },
     {
         "id": 45,
+        "name":"Titan Crest Premium Mesh Strap Smartwatch",
         "desc": "Titan Crest Premium Mesh Strap Smartwatch|1.43-inch AMOLED Display with AOD|466x466 Pixel Resolution|Functional Crown|SingleSync BT Calling|Advanced Chipset|100+ Sports Modes&WatchfacesIP68",
         "price": "7,899",
         "brand": "Titan",
@@ -662,6 +705,7 @@ export const allProducts = [
     },
     {
         "id": 46,
+        "name":"boAt Wave Call 2",
         "desc": "boAt Wave Call 2 with 1.83-inch HD Display, Advanced BT Calling, DIY Watch Face Studio, Coins, 700+Active Modes, Live Cricket Scores, Smart Watch for Men & Women(Active Black)",
         "price": "1,099",
         "brand": "boAt",
@@ -674,6 +718,7 @@ export const allProducts = [
     },
     {
         "id": 47,
+        "name":"Casio Men Resin G-Shock AnalogDigital",
         "desc": "Casio Men Resin G-Shock AnalogDigital Black Dial Ga-400-1Bdr (G566), Band Color-Black",
         "price": "9,994",
         "brand": "Casio",
@@ -686,6 +731,7 @@ export const allProducts = [
     },
     {
         "id": 48,
+        "name":"Noise Newly Launched Vortex Plus",
         "desc": "Noise Newly Launched Vortex Plus 1.46-inch AMOLED Display, AoD, BT Calling, Sleek Metal Finish, 7 Days Battery Life, All New OS with 100+ Watch Faces & Health Suite (Jet Black)",
         "price": "2,199",
         "brand": "Noise",
@@ -698,6 +744,7 @@ export const allProducts = [
     },
     {
         "id": 49,
+        "name":"Fastrack Limitless Glide",
         "desc": "Fastrack Limitless Glide Advanced UltraVU HD Display|BT Calling|ATS Chipset|100+ Sports Modes & Watchfaces|Calculator|Voice Assistant|in-Built Games|24 * 7 HRM|IP68 Smartwatch",
         "price": "1,399",
         "brand": "Fastrack",
@@ -710,6 +757,7 @@ export const allProducts = [
     },
     {
         "id": 50,
+        "name":"Fire-Boltt Ninja 3 Plus",
         "desc": "Fire-Boltt Ninja 3 Plus 1.83-inch Display Smartwatch Full Touch with 100+ Sports Modes with IP68, Sp02 Tracking, Over 100 Cloud Based Watch Faces (Grey)",
         "price": "999",
         "brand": "Fire-Boltt",
@@ -722,6 +770,7 @@ export const allProducts = [
     },
     {
         "id": 51,
+        "name":"Noise Pulse 2 Max",
         "desc": "Noise Pulse 2 Max 1.85-inch Display, Bluetooth Calling Smart Watch, 10 Days Battery, 550 NITS Brightness, Smart DND, 100 Sports Modes, Smartwatch for Men and Women (Rose Pink)",
         "price": "1,099",
         "brand": "Noise",
@@ -736,6 +785,7 @@ export const allProducts = [
 
     {
         "id": 52,
+        "name":"boAt Xtend Pro Smart Watch",
         "desc": "boAt Xtend Pro Smart Watch with Advanced Dedicated Bluetooth Calling Chip, Coins,Dial Pad, 1.78 AMOLED Display,ASAP (Fast) Charge,700+ Active Modes,Health Ecosystem(Active Black)",
         "price": "1,899",
         "brand": "boAt",
@@ -748,6 +798,7 @@ export const allProducts = [
     },
     {
         "id": 53,
+        "name":"Noise Newly Launched Endeavour",
         "desc": "Noise Newly Launched Endeavour Rugged Design 1.46-inch AMOLED Display Smart Watch, BT Calling, SoS Feature, Rapid Health & 100+ Sports Modes- (Camo Black)",
         "price": "2,999",
         "brand": "Noise",
@@ -760,6 +811,7 @@ export const allProducts = [
     },
     {
         "id": 54,
+        "name":"Shocknshop Analog Digital Sports",
         "desc": "Shocknshop Analog Digital Sports Multi Functional Dual Time Black Dial Watch for Mens Boys -SK04",
         "price": "449",
         "brand": "Shocknshop",
@@ -772,6 +824,7 @@ export const allProducts = [
     },
     {
         "id": 55,
+        "name":"TIMEX Analog Men's Watch",
         "desc": "TIMEX Analog Men's Watch (Dial Colored Strap)",
         "price": "957",
         "brand": "Timex",
@@ -784,6 +837,7 @@ export const allProducts = [
     },
     {
         "id": 56,
+        "name":"Fire-Boltt Phoenix Ultra Luxury",
         "desc": "Fire-Boltt Phoenix Ultra Luxury Stainless Steel, Bluetooth Calling Smartwatch, AI Voice Assistant, Metal Body with 120+ Sports Modes, SpO2, Heart Rate Monitoring (Gold)",
         "price": "1,749",
         "brand": "Fire-Boltt",
@@ -796,6 +850,7 @@ export const allProducts = [
     },
     {
         "id": 57,
+        "name":"Fire-Boltt Gladiator",
         "desc": "Fire-Boltt Gladiator 1.96-inch Biggest Display Smart Watch with Bluetooth Calling, Voice Assistant &123 Sports Modes, 8 Unique UI Interactions, SpO2, 24/7 Heart Rate Tracking (Orange)",
         "price": "1,499",
         "brand": "Fire-Boltt",
@@ -808,6 +863,7 @@ export const allProducts = [
     },
     {
         "id": 58,
+        "name":"Fossil Gen 6 Digital Black Dial Men's Watch",
         "desc": "Fossil Gen 6 Digital Black Dial Men's Watch-FTW4059",
         "price": "12,498",
         "brand": "Fossil",
@@ -820,6 +876,7 @@ export const allProducts = [
     },
     {
         "id": 59,
+        "name":"NoiseFit Halo",
         "desc": "NoiseFit Halo 1.43-inch AMOLED Display, Bluetooth Calling Round Dial Smart Watch, Premium Metallic Build, Always on Display, Smart Gesture Control, 100 Sports Modes (Vintage Brown)",
         "price": "2,799",
         "brand": "Noise",
@@ -832,6 +889,7 @@ export const allProducts = [
     },
     {
         "id": 60,
+        "name":"Fire-Boltt Ninja Call Pro Max",
         "desc": "Fire-Boltt Ninja Call Pro Max 2.01” Display Smart Watch, Bluetooth Calling, 120+ Sports Modes, Health Suite, Voice Assistance",
         "price": "1,299",
         "brand": "Fire-Boltt",
@@ -844,6 +902,7 @@ export const allProducts = [
     },
     {
         "id": 61,
+        "name":"boAt Xtend Smart Watch",
         "desc": "boAt Xtend Smart Watch with Alexa Built-in, 1.69-inch HD Display, Multiple Watch Faces, Stress Monitor, Heart & SpO2 Monitoring, 14 Sports Modes, Sleep Monitor, 5 ATM & 7 Days Battery(Pitch Black)",
         "price": "999",
         "brand": "boAt",
@@ -856,6 +915,7 @@ export const allProducts = [
     },
     {
         "id": 62,
+        "name":"Noise Twist Round dial Smart Watch",
         "desc": "Noise Twist Round dial Smart Watch with Bluetooth Calling, 1.38-inch TFT Display, up-to 7 Days Battery, 100+ Watch Faces, IP68, Heart Rate Monitor, Sleep Tracking (Jet Black)",
         "price": "1,199",
         "brand": "Noise",
@@ -870,6 +930,7 @@ export const allProducts = [
     // EarPhones
     {
         "id": 63,
+        "name":"Mivi DuoPods i7 [Latest] Earbuds",
         "desc": "Mivi DuoPods i7 [Latest] Earbuds - Step into The 3rd Dimension of Sound with 3D Soundstage, High Fidelity Drivers, Advanced Audio Codec for Lossless Audio & More-Pearl Black",
         "type": "EarPods",
         "price": "1,499",
@@ -883,6 +944,7 @@ export const allProducts = [
     },
     {
         "id": 64,
+        "name":"Oneplus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic",
         "desc": "Oneplus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 30 Hrs Battery Life, IP55 Dust and Water Resistant (Magico Black)",
         "type": "Wireless",
         "price": "1,499",
@@ -896,6 +958,7 @@ export const allProducts = [
     },
     {
         "id": 65,
+        "name":"Boult Audio [Just Launched] K40 True Wireless in Ear Earbuds",
         "desc": "Boult Audio [Just Launched] K40 True Wireless in Ear Earbuds with 48H Playtime, 4* Mics ENC, 45ms Low Latency Gaming, Made in India, 13mm Bass Drivers Ear Buds Bluetooth Wireless TWS (Electric Black)",
         "type": "EarPods",
         "price": "1,099",
@@ -909,6 +972,7 @@ export const allProducts = [
     },
     {
         "id": 66,
+        "name":"pTron Newly Launched Zenbuds X1",
         "desc": "pTron Newly Launched Zenbuds X1 Quad Mic TWS Earbuds, TruTalk ENC Calls, 40H Playtime, In-Ear Sensor, 40ms Movie/Music Modes,Bluetooth 5.3 Headphones, TypeC Fast Charging & IPX5 Water Resistant(Black)",
         "type": "EarPods",
         "price": "999",
@@ -922,6 +986,7 @@ export const allProducts = [
     },
     {
         "id": 67,
+        "name":"boAt Rockerz 255 Pro+ Bluetooth Wireless in Ear Earphones",
         "desc": "boAt Rockerz 255 Pro+ Bluetooth Wireless in Ear Earphones with Upto 60 Hours Playback, ASAP Charge, IPX7, Dual Pairing and Bluetooth v5.2(Cosmic Grey)",
         "type": "EarPods",
         "price": "1,299",
@@ -935,6 +1000,7 @@ export const allProducts = [
     },
     {
         "id": 68,
+        "name":"OnePlus Nord Buds 2r True Wireless in Ear Earbuds",
         "desc": "OnePlus Nord Buds 2r True Wireless in Ear Earbuds with Mic, 12.4mm Drivers, Playback:Upto 38hr case,4-Mic Design, IP55 Rating [Deep Grey]",
         "type": "EarPods",
         "price": "2,199",
@@ -948,6 +1014,7 @@ export const allProducts = [
     },
     {
         "id": 69,
+        "name":"boAt Immortal 111 in Ear TWS Earbuds",
         "desc": "boAt Immortal 111 in Ear TWS Earbuds with up to 40 Hours of Playtime, 40 ms Super-Low Latency Beast Mode, RGB LEDs, Quad Mics with ENx Tech, ASAP Charge, IWP Tech, IPX4, BTv5.3(Black Sabre)",
         "type": "EarPods",
         "price": "1,499",
@@ -961,6 +1028,7 @@ export const allProducts = [
     },
     {
         "id": 70,
+        "name":"realme TechLife Buds T100",
         "desc": "realme TechLife Buds T100 Bluetooth Truly Wireless in Ear Earbuds with mic, AI ENC for Calls, Google Fast Pair, 28 Hours Total Playback with Fast Charging and Low Latency Gaming Mode (Blue)",
         "type": "EarPods",
         "price": "1,399",
@@ -974,6 +1042,7 @@ export const allProducts = [
     },
     {
         "id": 71,
+        "name":"JBL C100SI Wired In Ear Headphones",
         "desc": "JBL C100SI Wired In Ear Headphones with Mic, JBL Pure Bass Sound, One Button Multi-function Remote, Angled Buds for Comfort fit (Black)",
         "type": "Wired",
         "price": "599",
@@ -987,6 +1056,7 @@ export const allProducts = [
     },
     {
         "id": 72,
+        "name":"boAt Bassheads 105 Wired in Ear Earphones",
         "desc": "boAt Bassheads 105 Wired in Ear Earphones with Mic (Green, Spirit Lime)",
         "type": "Wired",
         "price": "399",
@@ -1000,6 +1070,7 @@ export const allProducts = [
     },
     {
         "id": 73,
+        "name":"Boult Audio BassBuds X1 ",
         "desc": "Boult Audio BassBuds X1 in-Ear Wired Earphones with 10mm Extra Bass Driver and HD Sound with mic(Black)",
         "type": "Wired",
         "price": "349",
@@ -1015,6 +1086,7 @@ export const allProducts = [
 
     {
         "id": 74,
+        "name":"Boult Audio YCharge ",
         "desc": "Boult Audio YCharge Wireless in Ear Bluetooth Earphones with 12H Playtime, Type-C Fast Charging (20Min=100% Playtime), Pro+ Calling Mic, Made in India, 12mm Bass Drivers, IPX5 Neckband (Blue)",
         "type": "Wireless",
         "price": "649",
@@ -1028,6 +1100,7 @@ export const allProducts = [
     },
     {
         "id": 75,
+        "name":"boAt Rockerz 255 Pro+ Bluetooth in Ear Neckband ",
         "desc": "boAt Rockerz 255 Pro+ Bluetooth in Ear Neckband with Upto 60 Hours Playback, ASAP Charge, IPX7, Dual Pairing and Bluetooth v5.2(Active Black)",
         "type": "Wireless",
         "price": "999",
@@ -1041,6 +1114,7 @@ export const allProducts = [
     },
     {
         "id": 76,
+        "name":"JBL Newly Launched Wave Flex in-Ear Wireless Earbuds ",
         "desc": "JBL Newly Launched Wave Flex in-Ear Wireless Earbuds TWS with Mic,App for Custom Extra Bass EQ, 32Hrs Battery, Quick Charge, IP54 Water & Dust Proof, Ambient Aware, Talk-Thru,Google FastPair (Black)",
         "type": "EarPods",
         "price": "2,998",
@@ -1054,6 +1128,7 @@ export const allProducts = [
     },
     {
         "id": 77,
+        "name":"Boult Audio FXCharge Bluetooth Earphones ",
         "desc": "Boult Audio FXCharge Bluetooth Earphones with 32H Playtime, Dual Pairing Neckband, Zen™ ENC Mic, Type-C Fast Charging (5Mins=7.5Hrs), Biggest 14.2mm Bass Driver IPX5 Premium Silicone Neck band (Green)",
         "type": "Wireless",
         "price": "899",
@@ -1067,6 +1142,7 @@ export const allProducts = [
     },
     {
         "id": 78,
+        "name":"Boult Audio Z25 True Wireless in Ear Earbuds ",
         "desc": "Boult Audio Z25 True Wireless in Ear Earbuds with 32H Playtime, 45ms Low Latency, Type-C Fast Charging (10=150Mins), Made in India, Zen ENC Mic, 13mm Bass Drivers, Bluetooth 5.3 Ear Buds (Candy Cane)",
         "type": "EarPods",
         "price": "899",

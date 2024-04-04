@@ -2,7 +2,7 @@ import React from 'react'
 import { allProducts } from '../../ProductsData/all_products'
 import Review from '../Reviews/Review'
 
-const ProductDetails = ({ productId }) => {
+const ProductDetails = ({ productId}) => {
     const product = allProducts.find(item => item.id === parseInt(productId))
 
     // Product different view images
@@ -123,7 +123,7 @@ const ProductDetails = ({ productId }) => {
                     </div>
                     {/* Add to Cart button */}
                     <div className='my-4 flex justify-center'>
-                        <button className='bg-yellow-500 w-24 h-8 text-white text-sm font-medium hover:bg-slate-100 hover:text-black'>Add to Cart</button>
+                        <button  className='bg-yellow-500 w-24 h-8 text-white text-sm font-medium hover:bg-slate-100 hover:text-black'>Add to Cart</button>
                     </div>
                 </div>
             </div>

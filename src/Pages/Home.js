@@ -4,6 +4,7 @@ import LatestMobiles from '../Components/Mobiles/LatestMobiles'
 import LatestLap from '../Components/Laptops/LatestLap'
 
 const Home = () => {
+
   return (
     <div>
       <Banner/>

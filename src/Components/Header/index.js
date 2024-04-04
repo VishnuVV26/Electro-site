@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { IoIosHeartEmpty, IoIosCart } from 'react-icons/io'
-import { FiSearch, FiX } from 'react-icons/fi'
+import { FiSearch} from 'react-icons/fi'
 import { FaUser } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { HiMenu } from "react-icons/hi";
 const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+const [isSearchOpen,setIsSearchOpen]=useState(false);
   const Items = [
     { Name: 'Home', path: "/" },
     { Name: "Shop", path: "/devices" },
@@ -18,6 +18,9 @@ const Header = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+  }
+  const toggleSearch=()=>{
+    setIsSearchOpen(!isSearchOpen);
   }
 
   return (
@@ -41,7 +44,7 @@ const Header = () => {
         </div>
       </div>
       {/* Main Header */}
-      <div className='flex items-center justify-between gap-5 p-5'>
+      <div className='flex items-center justify-between p-5'>
         {/* Menu icon in mobile view */}
         <div className='md:hidden block'>
           <button onClick={toggleMenu}>
@@ -80,8 +83,26 @@ const Header = () => {
           <button className='p-2 -inset-y-2 right-0 absolute'><FiSearch className='md:text-xl' /></button>
 
         </div>
+
+{/* Mobile view search icon */}
+
+{isSearchOpen &&(
+  <div className='relative'>
+  <input type='text'
+    placeholder='Search...'
+    className='md:w-80 w-36 md:h-auto h-5 px-2 rounded-md pr-[2.5rem] absolute top-4 -right-8 '
+  />
+  <button className='p-2 -inset-y-2 -right-8 top-3 absolute'><FiSearch className='md:text-xl text-sm' /></button>
+
+</div>
+)}
+
+
         {/* icons cart,login and wishlist */}
         <div className='flex gap-5'>
+          <button onClick={toggleSearch} className='md:hidden'>
+            <FiSearch/>
+          </button>
          <Link to={'/wishlist'}>
           <button className='mt-2 hover:scale-105 duration-75'>
             <IoIosHeartEmpty className='text-2xl text-black hover:text-yellow-500' />
