@@ -9,12 +9,14 @@ const Images=[
     {image:"Image_3",path:"https://m.media-amazon.com/images/G/31/img24/dell/alieanware/prebooking/v1/AW_m16r2_1500X300-new._CB561801746_.jpg"},
     {image:"Image_4",path:"https://m.media-amazon.com/images/G/31/img24hp/boAt/Eutopia/sale/1500x300._CB561377478_.jpg"},
     {image:"Image_5",path:"https://m.media-amazon.com/images/G/31/img24hp/booat/ne/1500_300._CB579806819_.jpg"},
-    {image:"Image_6",path:"https://m.media-amazon.com/images/G/31/img24hp/SOUND/Soundbardays_Banner_1500x300._CB561615008_.jpg"}
+    {image:"Image_6",path:"https://m.media-amazon.com/images/G/31/img24hp/SOUND/Soundbardays_Banner_1500x300._CB561615008_.jpg"},
+    // {image:"Image_7",path:"https://m.media-amazon.com/images/G/31/img24hp/SOUND/Soundbardays_Banner_1500x300._CB561615008_.jpg"},
+
 
 ]
 
 const items = Images.map((item)=>(
-   <div className='p-5'> <img src={item.path} alt={item.image}
+   <div className='p-3'> <img src={item.path} alt={item.image}
    className='rounded-md cursor-pointer'
     />
     </div>
@@ -23,14 +25,14 @@ const items = Images.map((item)=>(
 const BannerCarousel = () => (
     <AliceCarousel
         autoPlay
-        autoPlayControls
+        // autoPlayControls
         autoPlayStrategy="none"
         autoPlayInterval={1000}
         animationDuration={1000}
         animationType="fadeout"
         infinite
         touchTracking={false}
-        disableDotsControls
+        // disableDotsControls
         disableButtonsControls
         items={items}
     />
