@@ -65,10 +65,10 @@ const [isSearchOpen,setIsSearchOpen]=useState(false);
         {/* Menu in the Mobile view */}
 
         {isMenuOpen && (
-          <div className='w-1/2 bg-slate-500 top-28 left-0 h-screen absolute p-7'>
-            <ul className='text-md font-medium text-white'>
+  <div className={`w-1/2 bg-slate-500 top-28 left-0 h-screen absolute p-7 ${isMenuOpen ? 'z-50' : 'hidden'}`}>
+  <ul className='text-md font-medium text-white'>
               {Items.map((item, index) => (
-               <Link to={item.path} ><li key={index} className='hover:text-black'>{item.Name}</li></Link>
+               <Link to={item.path} ><li key={index} className='hover:text-black' onClick={toggleMenu}>{item.Name}</li></Link>
               ))}
             </ul>
           </div>

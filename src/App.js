@@ -11,6 +11,7 @@ import ProductDisplay from "./Pages/ProductDisplay";
 import Cart from "./Pages/Cart";
 import Wishlist from "./Pages/Wishlist";
 import Shop from "./Pages/Shop";
+import BrandDisplayPage from "./Components/Brand Display/BrandDisplayPage";
 function App() {
 
   return (
@@ -26,6 +27,7 @@ function App() {
   <Route path="/products/:id" element={<ProductDisplay/>}/>
   <Route path="/cart" element={<Cart/>}/>
   <Route path="/wishlist" element={<Wishlist/>}/>
+  <Route path="/products/brands/:brandName" element={<BrandDisplayPage/>}/>
 </Routes>
 
 <BackToTopButton/>
