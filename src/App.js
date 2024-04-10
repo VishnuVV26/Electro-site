@@ -27,7 +27,7 @@ function App() {
   <Route path="/products/:id" element={<ProductDisplay/>}/>
   <Route path="/cart" element={<Cart/>}/>
   <Route path="/wishlist" element={<Wishlist/>}/>
-  <Route path="/products/brands/:brandName" element={<BrandDisplayPage/>}/>
+  <Route path="/products/brands/:brandName" element={<BrandDisplayPage />}/>
 </Routes>
 
 <BackToTopButton/>

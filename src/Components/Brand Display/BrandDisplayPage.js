@@ -1,46 +1,20 @@
-// import React from 'react'
-// import { useParams } from 'react-router-dom'
 
-// const BrandDisplayPage = () => {
-
-//     const {brandName}=useParams();
-
-//     const
-
-//   return (
-//     // Whole container
-//     <div>
-//         {/* brand banner */}
-// <div>
-
-// </div>
-// {/* brand products */}
-// <div>
-
-// </div>
-//     </div>
-//   )
-// }
-
-// export default BrandDisplayPage
-
-
-
-// BrandDisplayPage.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { allProducts } from '../../ProductsData/all_products'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 const BrandDisplayPage = () => {
-  const { brandName } = useParams();
+  const { brandName ,category } = useParams();
   const productsByBrand = allProducts.filter(
-    (product) => product.brand.toLowerCase() === brandName.toLowerCase() && product.category==='Mobile'
+    (product) => product.brand.toLowerCase() === brandName.toLowerCase()
   );
 
   return (
     <div className='mt-5 p-5'>
         <div>
-
+       
         </div>
       <h2 className='text-md font-bold'>Products by {(brandName)}: <span className='text-md font-normal'>Results</span><hr className='mt-1'/></h2>
       <div className='brand-products'>
@@ -64,3 +38,7 @@ const BrandDisplayPage = () => {
 };
 
 export default BrandDisplayPage;
+
+
+
+

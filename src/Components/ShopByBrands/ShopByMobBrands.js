@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import {allProducts} from '../../ProductsData/all_products'
 const ShopByMobBrands = () => {
 
-    const brands = Array.from(new Set(allProducts.map(product => product.brand)));
+  const mobileProducts = allProducts.filter(product => product.category === 'Mobile');
+    const brands = Array.from(new Set(mobileProducts.map(product => product.brand)));
 
     const responsive = {
         superLargeDesktop: {
@@ -26,6 +27,7 @@ const ShopByMobBrands = () => {
           items: 2
         }
       };
+
       
   return (
     <div className='p-3 border-2 mt-2 border-l-8 border-r-8'>
@@ -37,7 +39,7 @@ const ShopByMobBrands = () => {
         <div className='mt-4'>
         <Carousel responsive={responsive}>
         {brands.map((brand) => (
-          <div key={brand}>
+          <div key={brand} className='bg-cyan-400 w-24 h-10 flex justify-center items-center text-md font-medium cursor-pointer hover:bg-yellow-500'>
             <Link to={`/products/brands/${brand}`}>{brand}</Link>
           </div>
         ))}
